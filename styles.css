@@ -136,7 +136,7 @@ font-family: sans-serif;
     margin-top: 2in;
     /* page-break-after: always; */
   }
-  .photos {
+  /* .photos {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,5 +169,51 @@ font-family: sans-serif;
     width: 100%;
     height: 100%;
     object-fit: cover;
+  } */
+  /* .caption {
+    margin-top:10px;
+    font-size: 16px;
+    font-weight: bold; 
+  } */
+  .photos {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .col {
+    width: 48%;
+  }
+  
+  .image-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+  }
+  
+  
+ 
+  .caption {
+  font-size: 15px;
+    /* margin-top: 10px; */
+ text-align: center;
+  }
+  
+  
+  table, th, td {
+    width: 50%;
+    border: 1px solid;
   }
   
