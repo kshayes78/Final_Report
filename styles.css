@@ -44,10 +44,19 @@
     -webkit-background-clip: text;
     color: transparent;
   }
+
   p {
     font-size: 20px;
+    margin: 50px;
   }
   
+  .pages {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows:auto 1fr auto;
+
+  }
   .container {
     padding: 1.5rem;   
     text-align: center;
@@ -99,10 +108,15 @@ font-family: sans-serif;
 .table-of-contents {
 font-family: sans-serif;
 text-transform: uppercase;
+font-size: 30px;
   background-color: black;
   color: white;
   width: 100%;
-  padding: 10px 
+  padding: 200px ;
+  min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
+    
  
   
 }
@@ -133,48 +147,10 @@ font-family: sans-serif;
 .page {
     height: 100%;
     width: 100%;
-    margin-top: 2in;
+    /* margin-top: 2in; */
     /* page-break-after: always; */
   }
-  /* .photos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
   
-  .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 80%;
-  }
-  
-  .col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 45%;
-  }
-  
-  .image-holder {
-    border-radius: 50%;
-    overflow: hidden;
-    width: 200px;
-    height: 200px;
-    margin: 20px 0;
-  }
-  
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  } */
-  /* .caption {
-    margin-top:10px;
-    font-size: 16px;
-    font-weight: bold; 
-  } */
   .photos {
     width: 80%;
     margin: 0 auto;
@@ -197,12 +173,12 @@ font-family: sans-serif;
     margin-bottom: 20px;
   }
   
-  img {
+  /* img {
     border-radius: 50%;
     width: 250px;
     height: 250px;
   }
-  
+   */
   
  
   .caption {
@@ -211,9 +187,62 @@ font-family: sans-serif;
  text-align: center;
   }
   
-  
+  ol, ul {
+    font-size: 20px;
+  }
   table, th, td {
     width: 50%;
     border: 1px solid;
+  margin-left: auto;
+  margin-right:auto;
   }
+  th {
+    background-color: beige;
+    font-size: 20px;
+  }
+  .chart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .chart-image {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .chart-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .chart-caption {
+    text-align: right;
+    width: 100%;
+ font-size: 15px;
+    margin-top: 10px;
+
+  }
+  
+  /* FUTURE ACTIONS  */
+  .box {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  color: white;
+  text-align: center;
+}
+
   
