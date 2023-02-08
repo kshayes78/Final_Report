@@ -113,11 +113,14 @@
   <div class="header">PROJECT DESCRIPTION</div>
   <div class="content">
    <h2>PROJECT OVERVIEW</h2>
-   <p>The purpose of this project is to investigate wage inequities and the lack of BIPOC (Black Indigenous People of Color) representation within the technology field. Based on our findings, the disparities within the technology industry are statistically significant. BIPOC employees within this career sector show significantly lower representation, salary, and attainment of senior leadership roles in comparison to their peers of different races. In addition to excluding potentially fresh talent, the lack of diversity within the tech industry can also leave current minority technology professionals feeling marginalized and less motivated to contribute to their highest capacity within their respective departments.
-
+   <p>The purpose of this project is to investigate wage inequities and the lack of BIPOC (Black Indigenous People of Color) representation within the technology field. Based on our findings, the disparities within the technology industry are statistically significant. BIPOC employees within this career sector show significantly lower representation, salary, and attainment of senior leadership roles in comparison to their peers of different races. In addition to excluding potentially fresh talent, the lack of diversity within the tech industry can also leave current minority technology professionals feeling marginalized and less motivated to contribute to their greatest capacity within their respective departments. Furthermore, the inclusion of BIPOC talent within the data science field, particularly in Artificial Intelligence and Machine Learning projects, can enhance the design and development of new products and services. BIPOC contributors can offer valuable insights to assist in diversifying product offerings to broaden a company's customer base. 
 </p>
-</div>
-<div>
+
+<h2>SCOPE</h2>
+<p>DS4A Empowerment Team 47 sought to analyze the wage inequities and underrepresentation of BIPOC employees and  within the tech industry. To accomplish this task, we utilized survey data from the US Census Bureau and Levels.fyi. See datafolio <a href="https://docs.google.com/presentation/d/1HFqtOUKcGNnHBI3gqQ7CyBGq7ADdHmzry_LLoPphCS4/view" target="_blank" rel="noreferrer">here</a> </p>
+
+
+
 
 <h2>GOALS</h2>
 <ul>
@@ -125,29 +128,34 @@
     <li>Investigate potential contributing factors such as education level, years of experience (YOE), and job location
     </li>
     <li>Develop an action plan for hiring managers and senior leadership to eliminate selection bias in hiring and promoting BIPOC employees
-   <li>Increase BIPOC representation within tech fields</li> 
+ 
 
     </li>
+    </ul>
     <!-- <li>Increase access to career coaching, salary negotiation techniques, and technical interview preparation for minority job-seekers
     </li>
     <li>Encourage employer transparency in regard to salary range when posting new employment opportunities to reduce salary underbidding</li> -->
 
 <h2>IMPACT</h2>
+<ul>
     <li>Improve the number of BIPOC employees in terms of representation, salary, and attainment of senior leadership roles</li>
     <li>Increase awareness of STEM internship and employment opportunities to BIPOC audiences</li>
     <li>Increase sense of belonging in diverse talent and current technology professionals to feel less marginalized, and more motivated to contribute.
     </li>
     <li>Commitment from all levels of the organization to adhere to diversity and inclusion initiatives within the workplace. 
     </li>
-   
-   <h2>TECHNICAL FRAMEWORK</h2>
+  </ul>
+  <h2>TECHNICAL FRAMEWORK</h2>
+  <ul>
     <li>Scoping</li>
     <li>Data sourcing </li>
     <li>Data wrangling</li>
     <li>Exploratory Data Analysis</li>
     <li>Front-End Design and Data Visualization</li>
-   
-   <h2>TOOLBOX</h2>
+</ul>
+<h2>TOOLBOX</h2>
+   <ul>
+  
    <li>Python</li>
    <li>Jupyter Notebok </li>
    <li>Tableau</li>
@@ -155,14 +163,12 @@
    <li>Slack</li>
    <li>Excel</li>
   </ul>
-</div>
+
   </div>
   <div class="pages">
 <div class="header">DATA ANALYSIS</div>
 <h2>DATASETS</h2>
-<p>The team identified three data sources relevant to job role, median salary, and employee demographics. We evaluated the strengths and weaknesses of each data set,
-    determined the relevant factors, and performed a preliminary analysis to determine if salary inequalities were apparent.  Data sourcing proved to be challenging, and the group found that data specific to “data scientist” was quite limited relative to what we desired. For this reason, the initial project focus was amended to include additional technology roles such as software engineer and business analyst.
-    <table class="table">
+<table class="table">
       <tr>
         <th>Name of Dataset</th>
         <th>Link to Dataset</th>
@@ -186,6 +192,9 @@
         <td><a href="https://www.kaggle.com/datasets/jackogozaly/data-science-and-stem-salaries" target="_blank" rel="noreferrer">Levels data</a></td>
     </tr> 
      </table>
+<p>The team identified three data sources relevant to job role, median salary, and employee demographics. We evaluated the strengths and weaknesses of each data set,
+    determined the relevant factors, and performed a preliminary analysis to determine if salary inequalities were apparent.  Data sourcing proved to be challenging, and the group found that data specific to “data scientist” was quite limited relative to what we desired. For this reason, the initial project focus was amended to include additional technology roles such as software engineer and business analyst.
+    
     </p>
   </div>
 <h2>DATA WRANGLING</h2>
@@ -205,9 +214,9 @@
 <div class="pages">
 <div class="header">EXPLORATORY DATA ANALYSIS</div>
 <div class="page">
-<p>We projected that the disparities within the tech industry are significant. For the purpose of this analysis, our team sampled three tech-related job titles:  “Data Scientist”, “Business Analyst'', and “Software Engineer”. We found that minorities (Blacks and Hispanics) lag behind their non-minority peers the job title of "Data Scientist" and Software Engineer. Outside of excluding potential fresh talent, lack of diversity and inclusion within the data science industry can leave current data science professionals feeling isolated, ostracized and suffering from “imposter syndrome”.
+<p>We projected that the disparities within the tech industry were significant. For the purpose of this analysis, our team sampled three tech-related job titles:  “Data Scientist”, “Business Analyst'', and “Software Engineer”. We found that minorities (Blacks and Hispanics) lag behind their non-minority peers the job title of "Data Scientist" and Software Engineer. Outside of excluding potential fresh talent, lack of diversity and inclusion within the data science industry can leave current data science professionals feeling isolated, ostracized and suffering from “imposter syndrome”.
 
- <p>In order to answer this question, we need a better understanding of our data accomplished by
+ In order to answer this question, we need a better understanding of our data accomplished by
   exploring the basic statistics of each variable and the relationships between features.</p> 
 
   <h2>U.S Census: Income Summary Measures by Selected Characteristics 2021</h2>
@@ -234,32 +243,44 @@
 <div class="pages">
 <div class="header">DASHBOARD</div>
 <div class="page">
+  <p>The front-end dashboard provides a graphical representation of our overall business problem and provides a tool for job-seekers to determine where technology companies are located and how much they are paying their respective employees. 
+    The primary stakeholders of this tool are  tech industry employers, specifically hiring managers and human resources professionals, along with current employees. Secondary users of this dashboard would include potential job-seekers and college students currently majoring in STEM fields.</p>
   <div class="chart">
     <div class="chart-image">
-      <img src="images/projects/dashboard/race_income.jpg" alt="Image 1" class="chart-image">
+      <img src="images/projects/dashboard/Map.jpg" alt="Image 1" class="chart-image">
+      <p class="chart-caption">Map tool created for users to identify where technology jobs are located within the United States along with salary information</p>
+    </div>
+    <div class="chart-image">
+      <img src="images/projects/dashboard/race_income.jpg" alt="Image 2" class="chart-image">
       <p class="chart-caption">The median income by U.S. population and tech occupations shows that black employees received less income than Hispanics, Whites, and Asians in U.S. income, base salary and total salary</p>
     </div>
     <div class="chart-image">
-      <img src="image2.jpg" alt="Image 2" class="chart-image">
-      <p class="chart-caption">Image 2 Caption</p>
+      <img src="images/projects/dashboard/Income by education.png" alt="Image 3" class="chart-image">
+      <p class="chart-caption">The analysis of median income by education indicates that employees holding advanced degrees reported higher compensation than those without a degree. </p>
     </div>
     <div class="chart-image">
-      <img src="image3.jpg" alt="Image 3" class="chart-image">
-      <p class="chart-caption">Image 3 Caption</p>
-    </div>
-    <div class="chart-image">
-      <img src="image4.jpg" alt="Image 4" class="chart-image">
-      <p class="chart-caption">Image 4 Caption</p>
+      <img src="images/projects/dashboard/Income by age.png" alt="Image 4" class="chart-image">
+      <p class="chart-caption">The analysis of median income by age shows that respondents between the ages of 46-54 are the highest earners reporting a median salary of $97,089 followed by the 36-44 age group with a median salary of $90,312. </p>
     </div>
   </div>
-<p>The front-end dashboard provides a graphical representation of our business problem. The primary stakeholders of this tool are employers, specifically hiring managers and human resources professionals within the tech industry, and current employees.</p>
-<p>Secondary users of this dashboard would include potential job-seekers and college students currently majoring in STEM fields.</p>
+
 </div>
 </div>
 <div class="pages">
+  <div class="header">EXTENDED ANALYSIS</div>
+  <div class="page">
+    <div class="chart">
+      <div class="chart-image">
+        <img src="images/projects/dashboard/Heatmap.png" alt="Image 1" class="chart-image">
+      </div>
+        <p>The correlation heatmap shows positive linear relationships between years of experience and total yearly compensation, years of experience and years working at a company, total yearly compensation and years at a company, and total yearly compensation and higher degrees. It also reveals a higher relationship between white race, bachelor's degree, and more years of experience, leading to a conclusion of a positive linear relationship between total yearly compensation and identifying as white. There is a negative correlation between higher education and BIPOC races such as black and Hispanic, leading to a negative correlation with total yearly compensation. We also see some negative correlations between the higher levels of education and the BIPOC community, such as black and Hispanic. Based on previous discoveries, we see the linear relationship between attaining a higher level degree and total yearly compensation, we can conclude that members of the BIPOC community will also have a negative correlation with total yearly compensation. There are more conclusions that can be drawn, and as we continued to delve into the levels.fyi dataset, we were able to conclude that our hypothesis was valid. </p>
+   
+  
+  </div>
+<div class="pages">
 <div class="header">CONCLUSION</div>
 <div class="page">
-  <p>"The Color of Tech" highlights the need for increased access to STEM-related educational opportunities for the Black, Indigenous, and People of Color (BIPOC) community. To reduce bias and discrimination in the tech industry, the project results recommend promoting diversity and inclusion efforts in hiring practices and initial salary offers. Our further suggestions are to leverage social media to share funded opportunities for technology education, training, and internships aimed at increasing minority representation in tech workspaces. We also recommend increasing access to career coaching, advice on salary negotiation, and technical interview preparation for minority job-seekers. Additionally, our findings suggest employer transparency in regards to salary range when posting new employment opportunities in order to eliminate salary underbidding for BIPOC job applicants. These recommendations aim to address the disparities in the representation, salaries, and leadership positions of BIPOC individuals in the tech industry.
+  <p>The need for diverse and inclusive talent, primarily from the BIPOC communities has been ongoing for many years. In the wake of the Black Lives Matter movement and heightened public awareness about systemic racial inequalities, there has been an increased focus on attracting and retaining diverse talent in recent years. "The Color of Tech" highlights the need for increased access to STEM-related educational opportunities for the Black, Indigenous, and People of Color (BIPOC) community. To reduce bias and discrimination in hiring and promotion within the tech industry, we recommend promoting diversity and inclusion efforts in hiring practices and initial salary offers. Our further suggestions are to leverage social media to announce funded opportunities for technology education, training, and internships aimed at increasing minority representation in tech workspaces. We also recommend increasing access to career coaching, provide advice on salary negotiation, and technical interview preparation for minority job-seekers. Additionally, our findings suggest employer transparency in regards to salary range when posting new employment opportunities in order to eliminate salary underbidding for BIPOC job applicants. These recommendations aim to address the disparities in the representation, salaries, and leadership positions of BIPOC individuals in the tech industry.
 </p>
 </div>
 </div>
