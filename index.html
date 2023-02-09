@@ -8,7 +8,8 @@
   <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-  <!-- TITLE PAGE -->
+  <!-- TITLE PAGE 1-->
+  <div class="pages">
  <div class="wrapper">
   <div class="container">
     <h1>THE COLOR OF TECH</h1>
@@ -18,18 +19,15 @@
     <h3>Team 47 DS4A Empowerment</h3>
     <h3>Edwin Brown | Araselis Calderon | Tai Chou-Kudu | Sharon Eady | Kimberly Hayes | Willa Igbayo</h3></div>
 </div>
-
+</div>
 <br>    
 
-<!-- TABLE OF CONTENTS PAGE -->
+<!-- TABLE OF CONTENTS PAGE 2 -->
 
 <div class="pages">
 <div class="header">Table of Contents</div>
 <div class="table-of-contents">
-    <!-- <div class="entry">
-        <span class="page-number">2</span>
-        <span class="topic">Meet the Team</span>
-      </div> -->
+  
       
        
   <div class="entry">
@@ -121,16 +119,19 @@
           </div>
         </div>
       </div> -->
+
+      <!-- PROJECT DESCRIPTION PAGE 3 -->
+      <div class="pages">
   <div class="header">PROJECT DESCRIPTION</div>
   <div class="content">
    <h2>PROJECT OVERVIEW</h2>
    <p>The purpose of this project is to investigate wage inequities and the lack of BIPOC (Black Indigenous People of Color) representation within the technology field. Based on our findings, the disparities within the technology industry are statistically significant. BIPOC employees within this career sector show significantly lower representation, salary, and attainment of senior leadership roles in comparison to their peers of different races. In addition to excluding potentially fresh talent, the lack of diversity within the tech industry can also leave current minority technology professionals feeling marginalized and less motivated to contribute to their greatest capacity within their respective departments. Furthermore, the inclusion of BIPOC talent within the data science field, particularly in Artificial Intelligence and Machine Learning projects, can enhance the design and development of new products and services. BIPOC contributors can offer valuable insights to assist in diversifying product offerings to broaden a company's customer base. 
 </p>
-
-<h2>SCOPE</h2>
+<h2 >SCOPE</h2>
 <p>DS4A Empowerment Team 47 sought to analyze the wage inequities and underrepresentation of BIPOC employees and  within the tech industry. To accomplish this task, we utilized survey data from the US Census Bureau and Levels.fyi. See datafolio <a href="https://docs.google.com/presentation/d/1HFqtOUKcGNnHBI3gqQ7CyBGq7ADdHmzry_LLoPphCS4/view" target="_blank" rel="noreferrer">here</a> </p>
 
 <h2>GOALS</h2>
+
 <ul>
     <li>Highlight the differences in earnings for BIPOC tech employees</li>
     <li>Investigate potential contributing factors such as education level, years of experience (YOE), and job location
@@ -140,9 +141,6 @@
 
     </li>
     </ul>
-    <!-- <li>Increase access to career coaching, salary negotiation techniques, and technical interview preparation for minority job-seekers
-    </li>
-    <li>Encourage employer transparency in regard to salary range when posting new employment opportunities to reduce salary underbidding</li> -->
 
 <h2>IMPACT</h2>
 <ul>
@@ -171,8 +169,10 @@
    <li>Slack</li>
    <li>Excel</li>
   </ul>
-
+</div>
   </div>
+
+<!-- DATA ANALYSIS PAGE 4 -->
   <div class="pages">
 <div class="header">DATA ANALYSIS</div>
 <h2>DATASETS</h2>
@@ -219,9 +219,11 @@
 </li>
   <li>Race/Ethnicity values other than White, Black, Asian, and Hispanic were eliminated</li>
 </ul>
+
+<!-- EXPLORATORY DATA ANALYSIS PAGE 5 -->
 <div class="pages">
 <div class="header">EXPLORATORY DATA ANALYSIS</div>
-<div class="page">
+
 <p>We projected that the disparities within the tech industry were significant. For the purpose of this analysis, our team sampled three tech-related job titles:  “Data Scientist”, “Business Analyst'', and “Software Engineer”. We found that minorities (Blacks and Hispanics) lag behind their non-minority peers the job title of "Data Scientist" and Software Engineer. Outside of excluding potential fresh talent, lack of diversity and inclusion within the data science industry can leave current data science professionals feeling isolated, ostracized and suffering from “imposter syndrome”.
 
  In order to answer this question, we need a better understanding of our data accomplished by
@@ -246,11 +248,13 @@
   
   <p>This dataset extracts information from Levels.fyi, a website dedicated to helping every professional build a better career through the highest integrity insights and services. The dataset presents a bulk of information based on survey response information including: race, salary (total compensation along with bonuses/stock options, education levels, years at current company, total years of experience, location, title the employee currently holds, and the company the employee currently works for. This dataset has over 42,000 unique rows and presents a wealth of information. With this dataset, we were able to answer questions on pay disparity in terms of race, location, and title for various roles in the technology industry, and customize to extract the data relevant to a specific company.</p>
   
+
 </div>
-</div>
+
+<!-- DASHBOARD PAGE 6-->
 <div class="pages">
 <div class="header">DASHBOARD</div>
-<div class="page">
+
   <p>The front-end dashboard provides a graphical representation of our overall business problem and provides a tool for job-seekers to determine where technology companies are located and how much they are paying their respective employees. 
     The primary stakeholders of this tool are  tech industry employers, specifically hiring managers and human resources professionals, along with current employees. Secondary users of this dashboard would include potential job-seekers and college students currently majoring in STEM fields.</p>
   <div class="chart">
@@ -272,29 +276,52 @@
     </div>
   </div>
 
-</div>
-</div>
+<!-- DASHBOARD CONT PAGE 7 -->
+<div class="pages">
+  <div class="header">DASHBOARD</div>
+  
+  
+    <div class="chart">
+      <div class="chart-image">
+        <img src="images/projects/dashboard/Job Title & Race.jpg" alt="Image 1" class="chart-image">
+        <p class="chart-caption">Selected job titles: Business Analyst, Data Analyst, Software Engineer and compared salaries based on respondent's race.</p>
+      </div>
+      <div class="chart-image">
+        <img src="images/projects/dashboard/Race YOE and YAC.jpg" alt="Image 2" class="chart-image">
+        <p class="chart-caption"></p>
+      </div>
+      <!-- <div class="chart-image">
+        <img src="images/projects/dashboard/Income by education.png" alt="Image 3" class="chart-image">
+        <p class="chart-caption">The analysis of median income by education indicates that employees holding advanced degrees reported higher compensation than those without a degree. </p>
+      </div>
+      <div class="chart-image">
+        <img src="images/projects/dashboard/Income by age.png" alt="Image 4" class="chart-image">
+        <p class="chart-caption">The analysis of median income by age shows that respondents between the ages of 46-54 are the highest earners reporting a median salary of $97,089 followed by the 36-44 age group with a median salary of $90,312. </p>
+      </div> -->
+    </div>
+
+    <!-- EXTENDED ANALYSIS PAGE 8 -->
 <div class="pages">
   <div class="header">EXTENDED ANALYSIS</div>
-  <div class="page">
+ 
     <div class="chart">
       <div class="chart-image">
         <img src="images/projects/dashboard/Heatmap.png" alt="Image 1" class="chart-image">
       </div>
-        <p>The correlation heatmap shows positive linear relationships between years of experience and total yearly compensation, years of experience and years working at a company, total yearly compensation and years at a company, and total yearly compensation and higher degrees. It also reveals a higher relationship between white race, bachelor's degree, and more years of experience, leading to a conclusion of a positive linear relationship between total yearly compensation and identifying as white. There is a negative correlation between higher education and BIPOC races such as black and Hispanic, leading to a negative correlation with total yearly compensation. We also see some negative correlations between the higher levels of education and the BIPOC community, such as black and Hispanic. Based on previous discoveries, we see the linear relationship between attaining a higher level degree and total yearly compensation, we can conclude that members of the BIPOC community will also have a negative correlation with total yearly compensation. There are more conclusions that can be drawn, and as we continued to delve into the levels.fyi dataset, we were able to conclude that our hypothesis was valid. </p>
-   
-  
+        <p>The correlation heatmap shows positive linear relationships between years of experience and total yearly compensation, years of experience and years working at a company, total yearly compensation and years at a company, and total yearly compensation and higher degrees. It also reveals a higher relationship between white race, bachelor's degree, and more years of experience, leading to a conclusion of a positive linear relationship between total yearly compensation and identifying as white. There is a negative correlation between higher education and BIPOC races such as black and Hispanic, leading to a negative correlation with total yearly compensation. We also see some negative correlations between the higher levels of education and the BIPOC community, such as black and Hispanic. Based on previous discoveries, we see the linear relationship between attaining a higher level degree and total yearly compensation, we can conclude that members of the BIPOC community will also have a negative correlation with total yearly compensation. There are more conclusions that can be drawn, and as we continued to delve into the levels.fyi dataset, we were able to conclude that our hypothesis was valid. </p> 
   </div>
-<div class="pages">
+
+  <!-- CONCLUSION PAGE 9 -->
+  <div class="pages">
 <div class="header">CONCLUSION</div>
-<div class="page">
+
   <p>The need attract and retain diverse and inclusive talent, specifically from the BIPOC communities, has been ongoing for many years. In the wake of the Black Lives Matter movement and heightened public awareness about systemic racial inequalities in the United States, there has been an increased focus on attracting and retaining diverse talent in recent years. "The Color of Tech" highlights the need for increased access to STEM-related educational opportunities for the BIPOC community along with job-related training to enable "students" to transition to "employees". To reduce bias and discrimination in hiring and promotion within the tech industry, we recommend promoting diversity and inclusion efforts in hiring practices and initial salary offers. To this end, employers should consider "blind hiring" which hides resume details that may reveal a job candidate's race, gender, or socioeconomic background and potentially influence hiring decisions. Our further suggestions are to leverage social media to announce funded opportunities for technology education, training, and internships aimed at increasing minority representation in tech workspaces. We also recommend increasing access to career coaching, provide advice on salary negotiation, and technical interview preparation for minority job-seekers. Additionally, our findings suggest employer transparency in regards to salary range when posting new employment opportunities in order to eliminate salary underbidding for BIPOC job applicants. These recommendations aim to address the disparities in the representation, salaries, and leadership positions of BIPOC individuals in the tech industry.
 </p>
 </div>
-</div>
+
+<!-- FUTURE ACTIONS PAGE 9 -->
 <div class="pages">
-<div class="header">FUTURE WORK</div>
-<div class="page">
+<div class="header">FUTURE ACTIONS</div>
   <ol>
     <li>Expand access to STEM-related educational opportunities within the BIPOC community</li>
     <li>Promote diversity and inclusion efforts to reduce bias and discrimination in hiring practices and salary offers</li>
@@ -303,10 +330,10 @@
     <li>Encourage employer transparency in regard to salary range when posting new employment opportunities to eliminate salary underbidding for BIPOC job seekers</li>
   </ol>
 </div>
-</div>
+
+<!-- REFERENCES PAGE 10 -->
 <div class="pages">
 <div class="header">REFERENCES</div>
-<div class="page">
   <ul>
     <li><strong>Data Science Education Lags Behind in Diversity</strong></li>
   <a href="https://theindex.generalassemb.ly/data-science-education-lags-behind-in-diversity-ff59ffa718ec" target="_blank" rel="noreferrer">https://theindex.generalassemb.ly/data-science-education-lags-behind-in-diversity-ff59ffa718ec</a>
@@ -325,6 +352,23 @@
 </div>
 </div>
 </div>
+
+<!-- ACKNOWLEDGEMENTS PAGE 11 -->
+<div class="pages">
+  <div class="header">ACKNOWLEDGEMENTS</div>
+  <div class="page">
+    <h3>Thank you to everyone who assisted in making this project a success, including but not limited to: 
+    </h3>
+    <ul>
+      <li>Correlation One & DS4A Program Staff</li>
+      <li>Employer Partners</li>
+      <li>Our AMAZING Teaching Assistants (Scott DeGeest and Revell Bell)</li>
+      <li>Our mentors ()</li>
+      <li>Members of Team 47</li>
+      <li>Stack Overflow and ChatGPT</li>
+    </ul>
+  </div>
+  </div>
 </body>
 
 </html>

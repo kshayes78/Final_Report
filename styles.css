@@ -1,7 +1,9 @@
+/* ENTIRE DOCUMENT */
 * {
     box-sizing: border-box;
         /* font-family: "Exo", sans-serif; */
         font-family: "Open Sans", sans-serif;
+    
   }
   
   :root {
@@ -11,8 +13,16 @@
     --color-4: #e83611;
     --color-5: #d2b48c;
   }
+  .pages {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows:auto 1fr auto;
+    size: letter; 
+
+  }
   
-  
+ /* TITLE PAGE  */
   .wrapper {
     background: #000;
     line-height: 1;
@@ -45,22 +55,6 @@
     -webkit-background-clip: text;
     color: transparent;
   }
-  h2 {
-    margin: 75px; 
-  }
-
-  p {
-    font-size: 20px;
-    margin: 100px;
-  }
-  
-  .pages {
-    min-height: 100vh;
-    min-height: 100dvh;
-    display: grid;
-    grid-template-rows:auto 1fr auto;
-
-  }
   .container {
     padding: 1.5rem;   
     text-align: center;
@@ -76,7 +70,6 @@
   
   
   }
-  
   @media screen and (min-width: 768px) {
     h1 {
       font-size: 6.5rem;
@@ -90,12 +83,38 @@
 
 .title-page {
   text-align: center;
-  /* page-break-after: always; */
+
 }
 .subtitle {
     font-size: 20px;
     color: white
 }
+
+ /* DOCUMENT PAGES */
+  h2 {
+    margin: 0px; 
+
+  }
+  /* h2.remove-whitespace {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    height: 25px;
+  }
+  
+  div {
+    padding: 0;
+    margin-bottom: 5px;
+    border: 1px solid black;
+  } */
+
+  p {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+  }
+  
+ 
 
 .header {
 text-transform: uppercase;
@@ -109,7 +128,7 @@ letter-spacing: 4px;
   align-items: center;
   justify-content: center;
 }
-
+/* TABLE OF CONTENTS PAGE */
 .table-of-contents {
 font-family: sans-serif;
 text-transform: uppercase;
@@ -135,6 +154,7 @@ font-family: sans-serif;
 .page-number {
   width: 1in;
   text-align: left;
+  color: white;
   
 }
 
@@ -146,15 +166,11 @@ font-family: sans-serif;
 .content {
   padding: 10px;
 }
-/* .page {
-    height: 100%;
-    width: 100%;
-    /* margin-top: 2in; */
-    /* page-break-after: always; */
-  /* } */ */
+
+/* MEET THE TEAM PAGE */
   
-  .photos {
-    width: 80%;
+  /* .photos {
+    width: 70%;
     margin: 0 auto;
     margin-top: 20px;
   }
@@ -173,7 +189,7 @@ font-family: sans-serif;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
-  }
+  } */
   
   /* img {
     border-radius: 50%;
@@ -183,12 +199,13 @@ font-family: sans-serif;
    */
   
  
-  .caption {
+  /* .caption {
   font-size: 15px;
     /* margin-top: 10px; */
- text-align: center;
-  }
-  
+ /* text-align: center; */
+  /* } */
+   */
+
   ol, ul {
     font-size: 20px;
     margin: 100px;
@@ -203,6 +220,8 @@ font-family: sans-serif;
     background-color: beige;
     font-size: 20px;
   }
+
+  /* DATA VISUALIZATIONS */
   .chart {
     display: flex;
     flex-wrap: wrap;
@@ -218,7 +237,7 @@ font-family: sans-serif;
   }
   
   .chart-image img {
-    width: 100%;
+    width: 80%;
     height: auto;
   }
   
